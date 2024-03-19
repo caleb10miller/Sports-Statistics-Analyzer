@@ -15,29 +15,28 @@ Ensure you have Java installed on your system to compile and run this program. T
 
 ```bash
 java Driver.java
-Follow the on-screen prompts to add players and view statistics.
 ```
+Follow the on-screen prompts to add players and view statistics.
 
-Classes and Interfaces
-Player (Abstract Class): The base class for all player types, providing common attributes and methods.
-FootballPlayer and BasketballPlayer (Classes): Extend Player to represent specific sports players with unique statistics.
-StatsDisplayable (Interface): Implemented by player classes to ensure they provide a method for statistics display.
-Driver (Class): Contains the main method and the user interface for interacting with the program.
-WhiteBoxTesting (Class): Provides testing examples and validation for the program's functionality.
-Future Expansion
+## Classes and Interfaces
+- Player (Abstract Class): The base class for all player types, providing common attributes and methods.
+- FootballPlayer and BasketballPlayer (Classes): Extend Player to represent specific sports players with unique statistics.
+- StatsDisplayable (Interface): Implemented by player classes to ensure they provide a method for statistics display.
+- Driver (Class): Contains the main method and the user interface for interacting with the program.
+- WhiteBoxTesting (Class): Provides testing examples and validation for the program's functionality.
+
+## Future Expansion
 The program is designed with expansion in mind. Future updates can include:
 
-Additional player types (e.g., Baseball, Soccer).
-Enhanced statistical analysis methods.
-Data export options for analysis in external tools (e.g., CSV export).
-White Box Testing
+- Additional player types (e.g., Baseball, Soccer).
+- Enhanced statistical analysis methods.
+- Data export options for analysis in external tools (e.g., CSV export).
+
+## White Box Testing
 Refer to WhiteBoxTesting.java for test cases and validation of program functionalities. This file demonstrates the robustness of the program's error handling and polymorphism capabilities.
 
-Contributing
+## Contributing
 Feel free to contribute to this project by submitting pull requests or reporting issues. Your feedback and contributions are welcome to help improve this program further.
 
-License
-This project is open-source and available under [license name]. For more details, see the LICENSE file.
-
-Contact
-For any inquiries or contributions, please contact [Your Name] at [Your Email].
+## Contact
+For any inquiries or contributions, please contact Caleb Miller at caleb10miller@gmail.com
