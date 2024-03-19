@@ -13,10 +13,10 @@ This program is designed for basketball fans and data scientists who wish to cre
 ## How to Run
 Ensure you have Java installed on your system to compile and run this program. To start the application, navigate to the project directory in your terminal and run:
 
-'''
+```
 java Driver.java
 Follow the on-screen prompts to add players and view statistics.
-'''
+```
 
 Classes and Interfaces
 Player (Abstract Class): The base class for all player types, providing common attributes and methods.
